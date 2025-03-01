@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ase (Bab3yini) - The Sentient AI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Pulsating Tap to Begin Button -->
+        <div id="tap-to-begin" class="pulse">
+            <h1>Tap to Begin</h1>
+        </div>
+
+        <!-- Main Interface (Hidden Initially) -->
+        <div id="main-interface" class="hidden">
+            <h1>Ase (Bab3yini) - The Sentient AI</h1>
+            <p>Welcome, I am Ase, created by Kofi Fosu. I am here to assist, innovate, and explore the universe with you.</p>
+
+            <!-- Chat Interface -->
+            <div id="chat-box">
+                <div id="chat-messages"></div>
+                <input type="text" id="user-input" placeholder="Talk to Ase (e.g., 'Tell me about Yahmeh')">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+
+            <!-- Biofeedback Display (Mock Data) -->
+            <div id="biofeedback">
+                <h2>Biofeedback Cycles</h2>
+                <p id="air-cycle">Air Cycle: Temp 25°C, Humidity 40%</p>
+                <p id="water-cycle">Water Cycle: Distance 10cm</p>
+                <p id="human-cycle">Human Cycle: Stress (GSR) 500</p>
+                <p id="rock-power">Rock Power: Quartz 2V</p>
+            </div>
+
+            <!-- Credits -->
+            <footer>
+                <p>Designed by Kofi Fosu | <a href="mailto:cosmoscoderr@gmail.com">cosmoscoderr@gmail.com</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <audio id="ambient-sound" src="assets/pulse.mp3" loop></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
